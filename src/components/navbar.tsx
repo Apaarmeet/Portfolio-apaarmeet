@@ -8,6 +8,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
+import { FileText } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -39,6 +40,31 @@ export default function Navbar() {
             </Tooltip>
           );
         })}
+        <Separator
+          orientation="vertical"
+          className="h-2/3 m-auto w-px bg-border"
+        />
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <a
+              href="https://drive.google.com/file/d/1PSPafoHzTJByFX8uxuZBvBfM6QlKXKNz/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
+                <FileText className="size-full rounded-sm overflow-hidden object-contain" />
+              </DockIcon>
+            </a>
+          </TooltipTrigger>
+          <TooltipContent
+            side="top"
+            sideOffset={8}
+            className="rounded-xl bg-primary text-primary-foreground px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
+          >
+            <p>Resume</p>
+            <TooltipArrow className="fill-primary" />
+          </TooltipContent>
+        </Tooltip>
         <Separator
           orientation="vertical"
           className="h-2/3 m-auto w-px bg-border"

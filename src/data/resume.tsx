@@ -96,7 +96,7 @@ export const DATA = {
       href: "https://www.cuchd.in",
       degree: "Bachelor of Computer Applications (BCA) · CGPA: 8.2",
       logoUrl: "/chandigarh-university.png",
-      start: "2022",
+      start: "2023",
       end: "2026",
     },
   ],

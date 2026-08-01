@@ -89,6 +89,18 @@ export const DATA = {
       description:
         "Built an end-to-end LLM integration pipeline connecting Zoho Projects with intelligent code assistance. Implemented webhook-based automation to capture project issues and codebase context in real-time, and designed a context-aware LLM system that analyzes codebases to generate intelligent first responses for project issues. Developed an automated commenting system that posts LLM-generated solutions directly to Zoho Projects, integrating multiple data sources (code repositories, issue tracking, project context) into a unified AI workflow — reducing initial response time for project issues by 90%.",
     },
+    {
+      company: "Recon",
+      href: "#",
+      badges: [],
+      location: "",
+      title: "Full Stack Developer",
+      logoUrl: "/recon.png",
+      start: "Jan 2025",
+      end: "Jan 2026",
+      description:
+        "Redesigned and developed the company's website, improving scalability and performance for a customer base of 1M+ users. Deployed and managed production infrastructure on AWS using Kubernetes, Load Balancers, and Auto Scaling Groups to ensure high availability and reliable scaling. Built an AI-powered RAG chatbot using LLMs, Pinecone, and semantic search, enabling users to query company documents and FAQs in natural language. Developed backend services and REST APIs, optimizing application performance across the full software development lifecycle.",
+    },
   ],
   education: [
     {

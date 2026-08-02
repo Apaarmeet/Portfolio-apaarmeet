@@ -47,7 +47,7 @@ export default function Navbar() {
         <Tooltip>
           <TooltipTrigger asChild>
             <a
-              href="https://drive.google.com/file/d/1PSPafoHzTJByFX8uxuZBvBfM6QlKXKNz/view?usp=drive_link"
+              href="https://tinyurl.com/2vmanmec"
               target="_blank"
               rel="noopener noreferrer"
             >

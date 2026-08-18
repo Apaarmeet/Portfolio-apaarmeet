@@ -14,9 +14,9 @@ export const DATA = {
   location: "Ludhiana, India",
   locationLink: "https://www.google.com/maps/place/ludhiana",
   description:
-    "Full-stack developer building real-time systems, AI-powered interfaces, and cloud-native apps. Currently an AI Engineer at Webbee Global.",
+    "Full-stack developer building real-time systems, AI-powered interfaces, and cloud-native apps. Currently an AI Engineer.",
   summary:
-    "I'm a full-stack developer specializing in real-time systems, AI-powered interfaces, and cloud-native applications. I have strong experience shipping production-ready projects with React, TypeScript, Socket.IO, Cloudflare Workers, and modern backend architectures. Currently, [I work as an AI Engineer at Webbee Global](/#work), where I build LLM integration pipelines that connect project management tools with intelligent, context-aware code assistance. I'm passionate about shipping fast, solving real problems, and working in high-ownership startup environments.",
+    "I'm a full-stack developer specializing in real-time systems, AI-powered interfaces, and cloud-native applications. I have strong experience shipping production-ready projects with React, TypeScript, Socket.IO, Cloudflare Workers, and modern backend architectures. Currently, as an AI Engineer, I build LLM integration pipelines that connect project management tools with intelligent, context-aware code assistance. I'm passionate about shipping fast, solving real problems, and working in high-ownership startup environments.",
   avatarUrl: "/me.png",
   skills: [
     { name: "React", icon: ReactLight },

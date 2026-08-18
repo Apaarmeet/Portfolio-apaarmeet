@@ -139,6 +139,11 @@ export const DATA = {
           href: "https://atelier.apaarmeet.dev",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Apaarmeet/Atelier",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/atelier.png",
       video: "",

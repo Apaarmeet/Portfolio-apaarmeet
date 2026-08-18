@@ -114,6 +114,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "lovable – AI Full-Stack Web App Builder",
+      href: "https://lovable.apaarmeet.dev",
+      dates: "2026",
+      active: true,
+      description:
+        "An AI-powered full-stack web application that allows users to generate, preview, and iterate on React applications using natural language. The system provisions isolated E2B microVM sandboxes, injects Vite/React base templates, and utilizes an LLM agent to read, write, and execute code in real-time. Features a responsive split-pane dashboard with a chat interface on one side and a live, hot-reloading iframe preview on the other.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "E2B",
+        "Turborepo",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lovable.apaarmeet.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/lovable.png",
+      video: "",
+    },
+    {
       title: "Harness – Multi-Provider AI Coding Agent",
       href: "https://github.com/Apaarmeet/Coding-Harness",
       dates: "2026",

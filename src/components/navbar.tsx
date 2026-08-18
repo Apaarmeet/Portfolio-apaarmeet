@@ -47,7 +47,7 @@ export default function Navbar() {
         <Tooltip>
           <TooltipTrigger asChild>
             <a
-              href="https://tinyurl.com/bpzdaz6f"
+              href="https://tinyurl.com/bddwxsud"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -138,6 +138,11 @@ export const DATA = {
           href: "https://lovable.apaarmeet.dev",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Apaarmeet/Lovable",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/lovable.png",
       video: "",
